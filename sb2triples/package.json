@@ -1,6 +1,5 @@
 {
   "name": "sb2triples",
-  "version": "0.0.1",
   "description": "convert scrapbox contents to RDF triples",
   "files": [
     "dist",
