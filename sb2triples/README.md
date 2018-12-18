@@ -2,9 +2,14 @@
 
 WIP
 
+## Installation
+```
+$ npm i sb2triples
+```
+
 ## Usage
 ```html
-<script src="https://unpkg.com/sb2triples/dist/bundle.js"></sceipt>
+<script src="https://unpkg.com/sb2triples/dist/bundle.js"></script>
 ```
 
 ### pageLink, hashTag 抽出の仕方
