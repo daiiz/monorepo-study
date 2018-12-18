@@ -1,5 +1,7 @@
 # monorepo-study
 
+[![CircleCI](https://circleci.com/gh/daiiz/monorepo-study/tree/master.svg?style=svg)](https://circleci.com/gh/daiiz/monorepo-study/tree/master)
+
 ## Demos
 ```
 $ npm run build
