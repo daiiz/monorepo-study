@@ -1,0 +1,11 @@
+{
+  "name": "monorepo-study",
+  "version": "1.0.0",
+  "description": "monorepo-study",
+  "main": "index.js",
+  "scripts": {
+  },
+  "private": true,
+  "author": "daiiz",
+  "license": "MIT"
+}
