@@ -4,8 +4,23 @@
   "description": "monorepo-study",
   "main": "index.js",
   "scripts": {
+    "start": "http-server -c-1 -p 9008",
+    "build": "run-s build:*",
+    "build:sb2triples": "browserify -g [ uglifyify --keep_fnames ] sb2triples/src/index.js -o sb2triples/dist/bundle.js",
+    "test": "",
+    "publish:sb2triples": "npm run build:sb2triples && cd ./sb2triples && npm run npm-publish"
   },
   "private": true,
   "author": "daiiz",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^16.2.3",
+    "chai": "^4.2.0",
+    "http-server": "^0.11.1",
+    "lodash": "^4.17.11",
+    "mocha": "^5.2.0",
+    "npm-run-all": "^4.1.5",
+    "uglifyify": "^5.0.1",
+    "watchify": "^3.11.0"
+  }
 }

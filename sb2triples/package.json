@@ -1,0 +1,18 @@
+{
+  "name": "sb2triples",
+  "version": "0.0.1",
+  "description": "convert scrapbox contents to RDF triples",
+  "files": [
+    "dist",
+    "README.md",
+    "package.json"
+  ],
+  "unpkg": "./dist/bundle.js",
+  "private": false,
+  "author": "daiiz",
+  "license": "MIT",
+  "scripts": {
+    "pack": "npm pack | xargs tar -tf",
+    "npm-publish": "npm run pack"
+  }
+}
