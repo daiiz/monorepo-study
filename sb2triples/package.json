@@ -13,6 +13,6 @@
   "license": "MIT",
   "scripts": {
     "pack": "npm pack | xargs tar -tf",
-    "npm-publish": "npm publish"
+    "npm-publish": "npm version patch && npm publish"
   }
 }
